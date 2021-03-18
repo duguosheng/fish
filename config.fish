@@ -35,7 +35,7 @@ set -g theme_newline_cursor yes
 set -g theme_newline_prompt '❯❯❯ '
 
 # set -g theme_newline_prompt `┏(^ω^)=☞ ❯❯❯ `
-if test -f /home/godson/.autojump/share/autojump/autojump.fish; . /home/godson/.autojump/share/autojump/autojump.fish; end
+if test -f /home/dgs/.autojump/share/autojump/autojump.fish; . /home/dgs/.autojump/share/autojump/autojump.fish; end
 
 set -g -x MPD_PORT 6132
 set -g -x EDITOR /usr/bin/vi
