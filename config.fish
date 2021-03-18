@@ -32,6 +32,11 @@ set -g theme_color_scheme dracula
 set -g fish_prompt_pwd_dir_length 1
 set -g theme_project_dir_length 1
 set -g theme_newline_cursor yes
-set -g theme_newline_prompt '┏(^ω^)=☞ ❯❯❯ '
+set -g theme_newline_prompt '❯❯❯ '
+
+# set -g theme_newline_prompt `┏(^ω^)=☞ ❯❯❯ `
+if test -f /home/godson/.autojump/share/autojump/autojump.fish; . /home/godson/.autojump/share/autojump/autojump.fish; end
 
 set -g -x MPD_PORT 6132
+set -g -x EDITOR /usr/bin/vi
+thefuck --alias | source
